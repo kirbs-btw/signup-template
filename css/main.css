@@ -1,1 +1,38 @@
 /* some nice styling for the frontpage */
+
+
+.front-body{
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(var(--primary-one), var(--primary-two));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-body{
+    width: 90%;
+    height: 90%;
+    background-color: rgba(113, 113, 113, 0.514);
+    display: grid;
+    grid-template-areas:
+    'lt ct rt'
+    'lc cc rc'
+    'lb cb rb';
+}
+
+.main-content-section{
+    grid-area: cc;
+}
+
+.nav-section{
+    grid-area: rt;
+}
+
+.logo-section{
+    grid-area: lt;
+}
+
+.scroll-section{
+    grid-area: rb;
+}

@@ -4,7 +4,7 @@
 .front-body{
     width: 100vw;
     height: 100vh;
-    background-image: radial-gradient(var(--primary-one), var(--primary-two));
+    background-image: radial-gradient(ellipse at 20% 20%, var(--primary-two), var(--primary-one));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,15 +13,17 @@
 .content-body{
     width: 90%;
     height: 90%;
-    background-color: rgba(113, 113, 113, 0.514);
+    /*background-color: rgba(113, 113, 113, 0.514);*/
     display: flex;
     justify-content: space-between;
 }
 
 .content-body > *{
     height: 100%;
-    background-color: #00ffff1a;
+    /*background-color: #00ffff1a;*/
 }
+
+
 
 .left-column{
     width: 15%;
@@ -43,4 +45,9 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
+}
+
+#center-text{
+    font-family: Gotham Black;
+    font-size: 800%;
 }

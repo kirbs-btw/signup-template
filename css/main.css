@@ -55,3 +55,25 @@
 .logo-section{
     width: 30%;
 }
+
+.main-content-section > *{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #ffffff98;
+}
+
+#A-PRODUCT-P{
+    translate: 25% 100%;
+}
+
+#BY-SHADE-MEDIA-P{
+    translate: 50% -50%;
+}

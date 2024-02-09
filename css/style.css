@@ -19,4 +19,5 @@ body{
   font-family: Gotham HTF;
   font-size: 140%;
   color: #ffffff;
+  overflow-x: hidden;
 }

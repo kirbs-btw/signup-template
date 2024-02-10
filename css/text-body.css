@@ -1,0 +1,22 @@
+.info-section{
+    width: 100vw;
+    height: 50vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-text-section, .info-pic-section{
+    width: 50%;
+    height: 100%;
+   
+}
+
+.info-text-section{
+    background-color: red;
+}
+
+.info-pic-section{
+    background-color: blue;
+}

@@ -17,6 +17,11 @@
     background-color: red;
 }
 
+.info-text-section > * {
+    margin: 5vh;
+}
+
+
 .info-pic-section{
     background-color: blue;
 }

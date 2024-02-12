@@ -14,7 +14,8 @@
 }
 
 .info-text-section{
-    background-color: red;
+    background-color: #ffffff;
+    color: black;
 }
 
 .info-text-section > * {
@@ -24,4 +25,19 @@
 
 .info-pic-section{
     background-color: blue;
+}
+
+#picture-one{
+    background-image: url("../src/future_pic_three.png");
+    background-size: cover;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    
+}
+
+#picture-two{
+    background-image: url("../src/future_picture_two.png");
+    background-size: cover;
+    background-position:bottom;
+    background-repeat: no-repeat;
 }

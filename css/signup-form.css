@@ -9,11 +9,10 @@
 .signup-div{
     display: flex;
     flex-direction: column;
-    background-color: aqua;  
+    
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 50%;
 }
 
 .signup-form{
@@ -26,8 +25,10 @@
 }
 
 .signup-form > * {
-    width: 80%;
+    border-radius: 1vh;
+    border: 1px solid #00000000;
+    width: 100%;
     padding: 1vh;
-    margin: 0;
+    margin: 1vh;
     box-sizing: border-box;
 }

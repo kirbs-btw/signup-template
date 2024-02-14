@@ -20,4 +20,5 @@ body{
   font-size: 140%;
   color: #ffffff;
   overflow-x: hidden;
+  background-image: radial-gradient(ellipse at 20% 20%, var(--primary-two), var(--primary-one));
 }

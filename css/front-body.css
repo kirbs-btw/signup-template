@@ -1,7 +1,7 @@
 .front-body{
     width: 100vw;
     height: 100vh;
-    background-image: radial-gradient(ellipse at 20% 20%, var(--primary-two), var(--primary-one));
+    
     display: flex;
     justify-content: center;
     align-items: center;

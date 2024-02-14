@@ -1,7 +1,6 @@
 .info-section{
     width: 100vw;
     height: 50vh;
-    background-color: aqua;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,8 +13,7 @@
 }
 
 .info-text-section{
-    background-color: #ffffff;
-    color: black;
+    color: white;
 }
 
 .info-text-section > * {

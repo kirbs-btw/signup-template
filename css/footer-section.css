@@ -1,5 +1,8 @@
 .footer-section{
     width: 100vw;
     height: 20vh;
-    background-color: red;
+    background-color: rgb(19, 28, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

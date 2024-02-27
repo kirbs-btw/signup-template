@@ -3,6 +3,9 @@
     height: 20vh;
     background-color: rgb(19, 28, 54);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+}
+.footer-section > div{
+    width: 35%;
 }

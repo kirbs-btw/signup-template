@@ -1,10 +1,10 @@
 .info-section{
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-image: url("../src/future_pic_three.png");
+    background-image: url("../src/4kwater.jpeg");
     background-size: cover;
     background-position:bottom;
     background-repeat: no-repeat;

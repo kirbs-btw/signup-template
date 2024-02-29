@@ -4,15 +4,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    background-color: rgb(12, 17, 33);
 }
 
 .signup-div{
     display: flex;
     flex-direction: column;
-    
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 30%;
 }
 
 .signup-form{
@@ -25,10 +26,17 @@
 }
 
 .signup-form > * {
-    border-radius: 1vh;
-    border: 1px solid #00000000;
+    border-radius: 1.2vh;
+    border: None;
     width: 100%;
-    padding: 1vh;
+    padding: 1.2vh;
     margin: 1vh;
     box-sizing: border-box;
+}
+.signup-input:focus{
+    width: 110%;
+}
+
+#signup-title{
+    font-weight: 100;
 }

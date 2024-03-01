@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(12, 17, 33);
+    background-color: #0c1121;
 }
 
 .signup-div{
@@ -32,9 +32,27 @@
     padding: 1.2vh;
     margin: 1vh;
     box-sizing: border-box;
+    -webkit-transition: 0.4s;
 }
-.signup-input:focus{
-    width: 110%;
+
+.signup-input{
+    background-color: #ffffff1e;
+    color: white;
+}
+
+.signup-input::placeholder{
+    color: #ffffffbb;
+}
+
+.signup-input:hover, .signup-input:focus, .signup-button:hover, .signup-button:focus{
+    outline: none;
+    width: 105%;
+    -webkit-transition: 0.3s;
+}
+
+.signup-button{
+    background-color: hsl(136, 48%, 46%);
+    color: white;
 }
 
 #signup-title{

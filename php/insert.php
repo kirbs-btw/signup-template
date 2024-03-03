@@ -4,6 +4,7 @@
 
 //get data from the form
 $email= $_POST['email'];
+$name = $_POST['name'];
 
 if (!empty($email)){
     // db credentials
@@ -17,14 +18,15 @@ if (!empty($email)){
 
     // making it sql inject save
 	$save_email = mysqli_real_escape_string($conn, $email);
-
+	$save_name = mysqli_real_escape_string($conn, $name);
     // checking for connection error
 	if (mysqli_connect_error()){
         // throw error
 		die('Connect Error('. mysqli_connect_errno().')'. mysqli_connect_error());
 	} else{
         // inserting the line into to the tabel
-		$sql = "INSERT INTO mail (mail) VALUES('$save_email');";
+        // just a simple entry - datetime will be added later
+		$sql = "INSERT INTO mail (mail) VALUES('$save_email', ');";
 		mysqli_query($conn, $sql);
 	}
 }

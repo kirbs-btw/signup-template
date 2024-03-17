@@ -21,6 +21,13 @@ var picture = document.getElementById('paralax-picture');
   throttle("scroll", "optimizedScroll");
 })();
 
+
+// wip 
+// needing to change the params for mobile / croped version of the website
+// some offset or sizing issue ? 
+// depending on page size how fast the scroll is should change
+// feels not quite right
+
 window.addEventListener("optimizedScroll", function(){
     picture.style.backgroundPositionY = (window.pageYOffset * 0.05) + "%";
 })

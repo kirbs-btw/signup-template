@@ -5,7 +5,6 @@
     align-items: center;
     flex-direction: column;
     background-image: url("../src/4kwater.jpeg");
-    background-size: 200%;
     background-position: 10%;
     background-repeat: no-repeat;
 }
@@ -27,3 +26,14 @@
     margin: 5px;
 }
 
+@media all and (max-width: 1200px) {
+    .info-section{
+        background-size: 200%;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .info-section{
+        background-size: 100%;
+    }
+}
